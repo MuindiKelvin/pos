@@ -43,9 +43,9 @@ function Clickheretoprint()
 </script>
 
 
+
  <script language="javascript" type="text/javascript">
-/* Visit http://www.yaldex.com/ for full source code
-and get more free JavaScript, CSS and DHTML scripts! */
+
 <!-- Begin
 var timerID = null;
 var timerRunning = false;
@@ -136,6 +136,9 @@ $finalcode='RS-'.createRandomPassword();
 <div style="margin-top: -19px; margin-bottom: 21px;">
 <a  href="index.php"><button class="btn btn-default btn-large" style="float: none;"><i class="icon icon-circle-arrow-left icon-large"></i> Back</button></a>
 <button  style="float:right;" class="btn btn-success btn-mini"><a href="javascript:Clickheretoprint()"> Print</button></a>
+<button type="submit" id="btnExport" name='export'
+                    value="Export to Excel" class="btn btn-info">Export
+                    to Excel</button>
 
 </div>
 <form action="salesreport.php" method="get">

@@ -82,8 +82,7 @@ $finalcode='RS-'.createRandomPassword();
 
 
  <script language="javascript" type="text/javascript">
-/* Visit http://www.yaldex.com/ for full source code
-and get more free JavaScript, CSS and DHTML scripts! */
+
 <!-- Begin
 var timerID = null;
 var timerRunning = false;
@@ -128,7 +127,7 @@ window.onload=startclock;
 			<li><a href="customer.php"><i class="icon-group icon-2x"></i> Customers</a>                                    </li>
 			<li><a href="supplier.php"><i class="icon-group icon-2x"></i> Suppliers</a>                                    </li>
 			<li><a href="salesreport.php?d1=0&d2=0"><i class="icon-bar-chart icon-2x"></i> Sales Report</a>                </li>
-			<li><a href="sales_inventory.php"><i class="icon-table icon-2x"></i> Product Inventory</a>                </li>
+			<li><a href="sales_inventory.php"><i class="icon-table icon-2x"></i> Product Inventory</a>  </li>
 				<br><br><br><br><br><br>		
 			<li>
 			 <div class="hero-unit-clock">
@@ -151,8 +150,8 @@ window.onload=startclock;
 	<div style="width: 100%; height: 190px;" >
 	<div style="width: 900px; float: left;">
 	<center><div style="font:bold 25px 'Aleo';">Sales Receipt</div>
-	EREC`s Pharmacy	<br>
-	La Castellana, Negros Occidental	<br>	<br>
+	Dancan Cyber	<br>
+	and Electronics, Nairobi	<br>	<br>
 	</center>
 	<div>
 	<?php
