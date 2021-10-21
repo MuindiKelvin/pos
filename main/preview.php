@@ -297,11 +297,17 @@ window.onload=startclock;
 			
 		</tbody>
 	</table>
-	
+	<table>
+		<tr>
+			<td>Served By: <?php echo $_SESSION['SESS_LAST_NAME'];?></td>
+		</tr>
+		
+	</table>
 	</div>
 	</div>
 	</div>
 	</div>
+
 <div class="pull-right" style="margin-right:100px;">
 		<a href="javascript:Clickheretoprint()" style="font-size:20px;"><button class="btn btn-success btn-large"><i class="icon-print"></i> Print</button></a>
 		</div>	

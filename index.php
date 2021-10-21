@@ -61,7 +61,9 @@ if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count
 	<span style="height:30px; width:25px;" class="add-on"><i class="icon-lock icon-2x"></i></span><input type="password" style="height:40px;" name="password" Placeholder="Password" required/><br>
 		</div>
 		<div class="qwe">
-		 <button class="btn btn-large btn-primary btn-block pull-right" href="dashboard.html" type="submit"><i class="icon-signin icon-large"></i> Login</button>
+		 <button class="btn btn-mini btn-primary btn-block pull-right" href="dashboard.html" type="submit"><i class="icon-signin icon-large"></i> Admin Login </button>
+		 <!--<button class="btn btn-mini btn-primary btn-block pull-right" href="user/index.html" type="submit"><i class="icon-signin icon-large"></i> User Login </button>-->
+		 <p style="margin-top: 4%" align="center"><a href="../pos/users/">User Login</a>	</p>
 </div>
 		 </form>
 </div>

@@ -136,9 +136,8 @@ $finalcode='RS-'.createRandomPassword();
 <div style="margin-top: -19px; margin-bottom: 21px;">
 <a  href="index.php"><button class="btn btn-default btn-large" style="float: none;"><i class="icon icon-circle-arrow-left icon-large"></i> Back</button></a>
 <button  style="float:right;" class="btn btn-success btn-mini"><a href="javascript:Clickheretoprint()"> Print</button></a>
-<button type="submit" id="btnExport" name='export'
-                    value="Export to Excel" class="btn btn-info">Export
-                    to Excel</button>
+
+<button  style="float:center, color: cyan;" class="btn btn-info"><a href="vendors/export_to_excel.php">Export to Excel</button></a>
 
 </div>
 <form action="salesreport.php" method="get">
